@@ -1,8 +1,3 @@
-# Exemplo de cliente com acesso a funções administrativas (inserção) em um serviço web de persistência.
-
-# Autor: Fabrício G. M. de Carvalho, Ph. D.
-
-
 Para executar o sistema:
 
 1. Primeiro execute o servidor de dados (projeto web_service)

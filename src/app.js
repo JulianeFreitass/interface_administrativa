@@ -87,8 +87,8 @@ function listProjectHandler(req, resp){
                 } else {
                     /* build project list: */
                     res.body.forEach((item)=>{
-                        let projeto = new Projeto(item.titulo, item.link, 
-                                                  item.description, item.inicio, item.fim);
+                        let projeto = new Projeto(item.id, item.titulo, item.link, item.description, item.inicio, item.fim,
+                            );
                         projetos.push(projeto);
                     }); 
                     resp.render('listar_projetos',{lista_projetos: projetos});                    
